@@ -1,0 +1,16 @@
+
+Check whether a number is the same when read forward and backward.
+
+num = 121
+
+rev = ""
+
+for i in str(num):
+    rev = i + rev
+
+print(rev)
+
+if str(num) == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
